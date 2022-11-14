@@ -9,4 +9,14 @@ async function saveMockupData(data) {
   })
 }
 
-module.exports = { saveMockupData };
+async function getMockupData() {
+  const collectionsRef = "mockupdata/";
+  return new Promise((resolve, reject) => {
+    getData(collectionsRef).ref.on('value', (data) => {
+      if (data) { resolve(data.toJSON()) }
+      reject(null);
+    })
+  })
+}
+
+module.exports = { saveMockupData, getMockupData };
