@@ -24,3 +24,9 @@ Express and Firebase
     ```sh
     npm start or yarn start
     ```
+
+5. Update package
+    ```sh
+    npm upate or yarn upgrade
+    ```
+
