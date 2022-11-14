@@ -1,2 +1,3 @@
-# 32health-backend
-Node.js, Firebase backend.
+# 32health backend
+
+Express and Firebase

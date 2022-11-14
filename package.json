@@ -1,0 +1,28 @@
+{
+  "name": "32health-backend",
+  "version": "1.1.0",
+  "description": "32health express-firebase backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "express",
+    "firebase",
+    "backend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.5.0",
+    "express-firebase-middleware": "^3.0.0"
+  }
+}
