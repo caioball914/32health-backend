@@ -2,7 +2,7 @@
 
 Express and Firebase
 
-## How to use it
+## How to use it.
 1. Clone this repo and change directory to the cloned folder
 2. Install the packages
 
