@@ -12,7 +12,7 @@ Express and Firebase
 
 3. You need to download your Firebase Service Account json file, please follow the official [instruction](https://firebase.google.com/docs/admin/setup).
 
-    Put the file at project root.
+    Put the file at project root. so you can see following text.
 
     > :warning: Always make sure the JSON file is git-ignored!
 
